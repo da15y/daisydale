@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "Rotonda";
+	src: url(/RotonBol.ttf);
+}
+* {
+	font-family: "Rotonda";
+}
+.meow-btn {
+	background: #8acbe5;
+	padding: 14px;
+	font-size: 17pt;
+	border: none;
+	color: black;
+	border: 1px solid white;
+}
+a.meow-btn {
+	text-decoration: none;
+}
+.logo {
+	width: 15%;
+}

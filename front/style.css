@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "Rotonda";
+	src: url(/RotonBol.ttf);
+}
+* {
+	font-family: "Rotonda";
+}
+small {
+	font-size: 14pt;
+}
+.meow-btn {
+	background: #8acbe5;
+	padding: 14px;
+	font-size: 17pt;
+	border: none;
+	color: black;
+	border: 1px solid white;
+}
+a.meow-btn {
+	text-decoration: none;
+}
+.error {
+	color: red;
+}
+.meow-btn:hover {
+	cursor: pointer;
+	background: #b4deee;
+}
+.logo {
+	width: 300px;
+}
+input {
+	font-size: 21pt;
+	border: none;
+	border-bottom: 2px solid #8acbe5;
+	height: 50px;
+	-webkit-transition: ease-in-out, width .35s ease-in-out;
+	-o-transition: ease-in-out, width .35s ease-in-out;
+	transition: ease-in-out, width .35s ease-in-out;
+}
+input:focus {
+	border-color: #b4deee;
+}
+.loginbox {
+	margin: auto;
+	text-align: center;
+	padding: 6px;
+	width: 50%;
+}
+th,td {
+	padding: 15px;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+}
+table,th,td {
+	border: 1px solid black;
+}
